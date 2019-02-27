@@ -34,11 +34,11 @@ body{ font-size: 16px; font-family: 'Source Code Pro', monospace, sans-serif; wi
 
 h1, h2, h3, h4, h5, h6, p, a, ul, span, li, img, inpot, button{ margin: 0; padding: 0; }
 
-h1,h2,h3,h4,h5,h6{ line-height: 1.5; font-weight: inherit; }
+h1,h2,h3,h4,h5,h6{ line-height: 1.5; font-weight: inherit; color: black; }
 
 p{ line-height: 1.6; font-size: 1.05em; font-weight: 400; color: #555; }
 
-h1{ font-size: 38px;  color: rgb(41, 121, 255); line-height: 1.56em;
+h1{ font-size: 38px;  line-height: 1.56em;
     margin-bottom: 28px; margin-right: 10px;}
 h2{ font-size: 3em; line-height: 1.1; }
 h3{ font-size: 2.5em; }
@@ -103,7 +103,7 @@ b.light-color{ color: #444; }
 3. LEFT SECTION
 --------------------------------- */
 
-.left-section{ float: left; width: 50%; position: relative; }
+.left-section{ float: left; width: 50%; position: relative;  }
 
 .left-section .logo{ position: absolute; top: 40px; height: 30px; font-size: 25px;}
 
@@ -178,10 +178,10 @@ b.light-color{ color: #444; }
 4. RIGHT HEADER SECTION
 --------------------------------- */
 
-.right-section{ position: absolute; top: 0; bottom: 0; right: 0; width: 50%; background-size: cover; z-index: 1; background-color: rgb(41, 121, 255); }
+.right-section{ position: absolute; top: 0; bottom: 0; right: 0; width: 50%; background-size: cover; z-index: 1; background-color: black; }
 
-.right-section:after{ content:''; position: absolute; top: 0; bottom: 0; right: 0; left: 0; z-index: -2;
-	opacity: .3; background: linear-gradient(to right, #23074d, #cc5333); }
+/*.right-section:after{ content:''; position: absolute; top: 0; bottom: 0; right: 0; left: 0; z-index: -2;*/
+	/*opacity: .3; background: linear-gradient(to right, #23074d, #cc5333); }*/
 
 #rounded-countdown{ width: 80%; margin: 0 auto; }
 
