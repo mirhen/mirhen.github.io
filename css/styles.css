@@ -175,7 +175,7 @@ b.light-color{ color: #444; }
 
 
 /* ---------------------------------
-4. RIGHT SECTION
+4. RIGHT HEADER SECTION
 --------------------------------- */
 
 .right-section{ position: absolute; top: 0; bottom: 0; right: 0; width: 50%; background-size: cover; z-index: 1; background-color: rgb(41, 121, 255); }
@@ -184,4 +184,38 @@ b.light-color{ color: #444; }
 	opacity: .3; background: linear-gradient(to right, #23074d, #cc5333); }
 
 #rounded-countdown{ width: 80%; margin: 0 auto; }
+
+/* ---------------------------------
+4. RIGHT CONTENT SECTION
+--------------------------------- */
+
+.content-section{ 
+    position: relative;
+    float: left;
+    top: 0; 
+    bottom: 0; 
+    right: 0; 
+    width: 50%; 
+    background-size: cover; 
+    z-index: 1; 
+    background-color: rgb(41, 121, 255); 
+}
+
+.content-section:after{ 
+    content:''; 
+    position: relative;
+    float: left;
+    top: 0; 
+    bottom: 0; 
+    right: 0; 
+    left: 0; 
+    z-index: -2;
+	opacity: .3; 
+    background: linear-gradient(to right, #23074d, #cc5333); 
+}
+
+#rounded-countdown{ 
+    width: 80%; 
+    margin: 0 auto; 
+}
 
